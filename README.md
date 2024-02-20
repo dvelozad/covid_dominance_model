@@ -9,7 +9,7 @@ The function used to model the dominance of COVID variants over time is defined 
 $$ D_i(x) = \frac{q_i(x)}{\sum_i{q_i(x)}}$$
 
 with $q_i(x)$ defined as:
-$$q_i(x) =  \times \left( \frac{1}{1 + e^{-(a_i x + b_i)}} \right) \times \left( 1 - \frac{1}{1 + e^{-(c_i x + d_i)}} \right)$$
+$$q_i(x) = \left( \frac{1}{1 + e^{-(a_i x + b_i)}} \right) \times \left( 1 - \frac{1}{1 + e^{-(c_i x + d_i)}} \right)$$
 
 
 Where:
